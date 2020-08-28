@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- website title -->
+      <title>Robox</title>
+      <!-- bootstrap css -->
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- fontawosome icon css -->
+      <link type="text/css" href="assets/css/font-awesome.css" rel="stylesheet">
+      <!-- mobile style css -->
+      <link href="assets/css/jquery.mmenu.all.css" rel="stylesheet">
+      <!-- main style css -->
+      <link href="assets/css/style.css" rel="stylesheet">
+      <!-- jquery -->
+      <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+      <!-- bootstrap js -->
+      <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+      <!-- mobile menu -->
+      <script type="text/javascript" src="assets/js/jquery.mmenu.all.min.js"></script> 
+    </head>
+    <body>
+            <!-- mobile menu js -->
+            <script type="text/javascript">
+                $(function() {
+                  $('nav#menu').mmenu();
+                });
+             </script>
+
+             <!-- mobile menu -->
+            <div class="mobile-menu hidden-sm hidden-md hidden-lg">
+              <div class="header">
+                <a href="#menu"><span></span></a>
+               </div>
+                
+              <nav id="menu">
+                <ul>
+                  <li><a class="active" href="#">Dashboard</a></li>
+                  <li><a href="#">Goals</a></li>
+                  <li><a href="#">Funds</a></li>
+                  <li><a href="#">Collections</a></li>
+                 </ul>
+              </nav>
+              </div>
+            </div> 
+          <div class="clearfix"></div>
+
+           <!--end  mobile menu -->
+           <div class="view-port">
+                 <!-- header -->
+                 <div class="top-head">
+                       <div class="container">
+                              <div class="row">
+                                    <div class="col-md-4 col-xs-4">
+                                          <div class="logo">
+                                            <a  href="index.html"><img src="assets/images/logo.png" class="img-responsive"></a>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-8 col-xs-8">
+                                          <ul class="top-icons">
+                                                <li><a href="#"><img src="assets/images/notice.png" class="img-responsive"></a></li>
+                                                <li><a href="#"><p class="pa">A</p></a></li>
+                                          </ul>
+                                    </div>
+                              </div>
+                              <div class="clearfix"></div>
+                       </div>
+                 </div>
+                  <!-- main menu -->
+                  <div class="main-menu hidden-xs">
+                   <nav class="navbar">
+                      <div class="container menus">
+                        <ul class="nav navbar-nav  navbar-left">
+                              <li><a class="active" href="#">Dashboard</a></li>
+                              <li><a href="#">Goals</a></li>
+                              <li><a href="#">Funds</a></li>
+                              <li><a href="#">Collections</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+
+                  <!-- profile -->
+                   <div class="prfl">
+                      <div class="container">
+                        <div class="col-md-8">
+                        <h2>Create your own portfolio</h2>
+                        <p>Choose funds based on your comfort and understanding. And create your own portfolio.</p>
+                        </div>
+                        <div class="col-md-4">
+                              <a hre="#"><button class="prfl-btn">See all invested Funds <i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                  </div>
+
+                  <!-- filter and search block -->
+                  <div class="filter-search">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="col-md-9">
+                                          <div class="col-md-4">
+                                                <div class="filter-block">
+                                                      <h4>Filter</h4>
+                                                      <a href="#">Clear all</a>
+                                                      <div class="cat">
+
+                                                        <h4></h4>
+                                                          <div class="acc__card">
+                                                            <div class="acc__title active">Fund Category</div>
+                                                            <div class="acc__panel" style="display: block;">
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one" checked="" /> All</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Gold</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Large Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Mid Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Small Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Multi Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Balanced</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Liquid</label></div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="acc__card">
+                                                            <div class="acc__title active">Rating</div>
+                                                            <div class="acc__panel" style="display: block;">
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one" checked="" /> All</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/>1 Star</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> 2 Star</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> 3 Star</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> 4 Star</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> 5 Star</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> unrated</label></div>
+                                                              
+                                                            </div>
+                                                          </div>
+                                                          <div class="acc__card">
+                                                            <div class="acc__title active">AMC</div>
+                                                            <div class="acc__panel">
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one" checked="" /> All</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Gold</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Large Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Mid Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Small Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Multi Cap</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Balanced</label></div>
+                                                              <div class="checkbox"><label><input type="checkbox" rel="category-one"/> Liquid</label></div>
+                                                            </div>
+                                                          </div>
+                                                      </div>
+                                                 </div>
+                                          </div>
+                                          <div class="col-md-8">
+                                                <div class="search-block">
+                                                      <div class="col-md-8 col-xs-12 nopad">
+                                                             <i class="fa fa-search"></i>
+                                                             <input type="text" class="form-control" placeholder=" Search all mutual funds">
+                                                   
+                                                      </div>
+                                                     <div class="col-md-4 col-xs-12">
+                                                      <div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sort <span class="caret"></span></a>
+                                                           <ul class="dropdown-menu">
+                                                            <li><a href="#">sort</a></li>
+                                                            <li><a href="#">sort</a></li>               
+                                                           </ul>
+                                                        </div>
+                                                  </div>
+                                                       <div class="clearfix"></div>
+                                                </div>
+                                                 <div class="search-content">
+                                                      <div class="srch-div">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/mirae.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>Mirae Asset Emerging Bluechip Fund Direct Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                      <div class="srch-div">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/nippon.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>Nippon India Gilt Securities Fund Direct Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                      <div class="srch-div srch-act">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/axis.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>Axis Bluechip Fund Direct Plan Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                       <div class="srch-div">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/mirae.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>SBI Banking & Financial Services Fund Direct Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                       <div class="srch-div">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/nippon.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>Nippon India Gilt Securities Fund Direct Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                       <div class="srch-div">
+                                                            <div class="col-md-2 nopad">
+                                                                  <img src="assets/images/axis.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-md-10 nopad">
+                                                                  <h4>Mirae Asset Emerging Bluechip Fund Direct Growth</h4>
+                                                                  <ul>
+                                                                        <li><span class="tl">Return:</span> 18.32%</li>
+                                                                        <li><span class="tl">Fund Size:</span> 6000.01 Cr </li>
+                                                                        <li>Aggressive</li>
+                                                                        <li>Debt</li>
+                                                                  </ul>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                      </div>
+                                                </div>
+
+                                                           
+                                                      <div class="clearfix"></div>
+                                                </div>
+                                           </div>
+                         
+                                    <div class="col-md-3">
+                                          <div class="side srch-div">
+                                                <div class="col-md-2 nopad">
+                                                      <img src="assets/images/axis.png" class="img-responsive">
+                                                </div>
+                                                <div class="col-md-10 nopad">
+                                                      <h4>Axis Bluechip Fund Direct Plan Growth</h4>
+                                                      <ul>
+                                                            <li>Aggressive</li>
+                                                            <li>Debt</li>
+                                                      </ul>
+                                                </div>
+
+                                                <div class="clearfix"></div>
+                                                      <div class="side-box">
+                                                            <label>Lumpsum Amount</label>
+                                                            <input type="text" name="" placeholder="₹ 30,000">
+                                                            <span class="inp">(Minimum of ₹1,00,000; Multiples of ₹1)</span>
+                                                      </div>
+                                                       <div class="side-box">
+                                                            <label>SIP Amount</label>
+                                                            <input type="text" name="" placeholder="₹ 3,000">
+                                                            <span class="inp">(Minimum of ₹500; Multiples of ₹100)</span>
+                                                      </div>
+                                                       <div class="side-box">
+                                                            <label>SIP date <span class="inp">(Every Month)</span></label>
+                                                            <input type="date">
+                                                      </div>
+                                                        <div class="clearfix"></div>
+                                                      <div class="side-btns">
+                                                          <button type="submit" class="add">Add</button>
+                                                          <button type="submit" class="cancel">Cancel</button>
+                                                      </div>
+                                                
+                                                <div class="clearfix"></div>
+                                          </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="ftr">
+                                          <div class="row">
+                                                <div class="col-md-6">
+                                                      <p>©Copyright 2020-2021</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                      <p class="pull-right">Powered by <img src="assets/images/logo.png"></p>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+
+             <script type="text/javascript">
+         /* jQuery
+================================================== */
+$(function() {
+  $('.acc__title').click(function(j) {
+    
+    var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+    $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+    
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+    } else {
+      $(this).closest('.acc').find('.acc__title.active').removeClass('active');
+      $(this).addClass('active');
+    }
+    
+    dropDown.stop(false, true).slideToggle();
+    j.preventDefault();
+  });
+});
+
+             </script>
+      </body>
+</html>
+
